@@ -1,0 +1,26 @@
+{
+  "name": "express-course",
+  "version": "1.0.0",
+  "description": "express-course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miltonbecker/express-course.git"
+  },
+  "author": "Milton Becker Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miltonbecker/express-course/issues"
+  },
+  "homepage": "https://github.com/miltonbecker/express-course#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^2.0.41"
+  }
+}

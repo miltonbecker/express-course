@@ -1,0 +1,15 @@
+input {
+    margin-bottom: 5px;
+}
+
+i {
+    color: crimson;
+}
+
+.tooltip-inner {
+    background-color: crimson;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: crimson;
+}
