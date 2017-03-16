@@ -27,6 +27,8 @@ $('form').submit(function (e) {
         appendToList([ blockName ]);
         form.trigger('reset');
         form.find('input')[ 0 ].focus();
+    }).fail(function (error, textStatus, errorThrown) {
+        alert(`${textStatus}: ${errorThrown}`);
     });
 });
 
@@ -39,6 +41,6 @@ $('#block-list').on('click', 'a[data-block]', function (event) {
         type: 'DELETE',
         url: '/blocks/' + target.data('block')
     }).done(function () {
-        target.parents('li').remove(); 
+        target.parents('li').remove();
     });
 });
